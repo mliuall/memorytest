@@ -17,15 +17,18 @@ check = check';
 figure('Name','Template','NumberTitle','off');
 for k = 1:x^2
     subplot(x,x,k)
-%    set(gca, 'tag', num2str(k))
+    set(gca, 'tag', num2str(k))
+    selected = false;
     for m = 1:x
         if (k == check(m))
-            image(block_random); axis off
-            continue
-        else
-            imagesc(block_initial); axis off
-            colormap bone;
+            selected = true;
         end
+    end
+    if(selected)
+        image(block_random); axis off
+    else
+        imagesc(block_initial); axis off
+        colormap bone;
     end
 end
 pause(2)
