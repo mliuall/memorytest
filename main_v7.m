@@ -1,6 +1,6 @@
 % main.m
 
-%%
+%% Start
 %
 function main()
 score = 0;
@@ -8,6 +8,7 @@ setGlobalx(3); %Change number to get different output
 setup(getGlobalx)
 end % of main function
 
+%% Declaring Global Variables
 function setGlobalx(val)
 global x
 x = val;
@@ -30,6 +31,7 @@ global check
 r = check;
 end
 
+%% Setup Function
 function setup(x)
 % Random Template Figure Setup
 block_initial = zeros(floor(100/x)-1);
