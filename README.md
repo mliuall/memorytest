@@ -5,7 +5,7 @@ Authors: Matthew Liu & Thomas Wang
 This is a recreation of the Human Benchmark Visual Memory Test
 
 #Demo
-![](https://github.com/mliuall/memorytest/blob/main/Demo.gif)
+![](https://github.com/mliuall/memorytest/blob/main/demo.gif)
 
 Presentation Link: https://drive.google.com/file/d/1TvjuE0GyPKxGRsp6Qgf-eUk-YuBBL4i7/view?usp=sharing
 
